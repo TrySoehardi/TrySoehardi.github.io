@@ -14,6 +14,8 @@ $(document).ready(function(){
         $('#MYDIV2').addClass('mb-3');
         $('#mydiv3').prependTo( $('#MYDIV3') );
         $('#MYDIV3').addClass('mb-3');
+        $('#mydiv4').prependTo( $('#MYDIV4') );
+        $('#MYDIV4').addClass('mb-3');
        }
        
         

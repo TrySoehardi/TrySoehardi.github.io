@@ -99,13 +99,14 @@
 
 
         <div class="row" id="accordion">
+
           <div class="col-md-6 col-lg-4">
             <a href="#collapseExample1" class="media-1"
             data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample1">
-              <img src="images/login.png" alt="Image" class="img-fluid">
+              <img src="images/in-there.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Project 1</h2>
-                <span class="category">Web Application</span>
+                <span class="category">Real Time Chat</span>
               </div>
             </a>
           </div>
@@ -113,11 +114,11 @@
 
           <div class="col-md-6 col-lg-4">
             <a href="#collapseExample2" class="media-1"
-            data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample2">
-              <img src="images/arduino.jpeg" alt="Image" class="img-fluid">
+            data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample1">
+              <img src="images/login.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Project 2</h2>
-                <span class="category">Microcontroller</span>
+                <span class="category">Web Application</span>
               </div>
             </a>
           </div>
@@ -125,18 +126,40 @@
 
           <div class="col-md-6 col-lg-4">
             <a href="#collapseExample3" class="media-1"
-            data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample3">
-              <img src="images/raspberry.jpg" alt="Image" class="img-fluid">
+            data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample2">
+              <img src="images/arduino.jpeg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Project 3</h2>
-                <span class="category">raspberry pi</span>
+                <span class="category">Microcontroller</span>
               </div>
             </a>
           </div>
           <div id="MYDIV3"></div>
-          
+
+          <div class="col-md-6 col-lg-4">
+            <a href="#collapseExample4" class="media-1"
+            data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample3">
+              <img src="images/raspberry.jpg" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>Project 4</h2>
+                <span class="category">raspberry pi</span>
+              </div>
+            </a>
+          </div>
+          <div id="MYDIV4"></div>
+
           <div id="mydiv1">
-          <div class="collapse" id="collapseExample1" data-parent="#accordion">
+            <div class="collapse" id="collapseExample1" data-parent="#accordion">
+              <div class="col-md-12 text-white-opacity-01"><h4>
+                Build a realtime chat app using webshocket. So that it can force push notifications without reloading the browser, for now the feature is still only for chat and will be developed so that it can undergo calls video service and send files
+              </h4>
+              <div class="d-flex justify-content-center"><img  class="col-sm-7 img-fluid" src="images/in-there.png"></div>
+              </div>
+            </div>
+          </div>  
+          
+          <div id="mydiv2">
+          <div class="collapse" id="collapseExample2" data-parent="#accordion">
             <div class="col-md-12 text-white-opacity-01"><h4>
               Create a website application with an activation login system using a codeigneiter framework. This project was created to deepen the dynamic web of various frameworks
             </h4>
@@ -145,8 +168,8 @@
           </div>
         </div>  
 
-        <div id="mydiv2">
-          <div class="collapse" id="collapseExample2" data-parent="#accordion">
+        <div id="mydiv3">
+          <div class="collapse" id="collapseExample3" data-parent="#accordion">
               <div class="col-md-12 text-white-opacity-01"><h4>
                 Build a Quadcopter flight control with Arduino uno with the code I fork from joop brooking. Using PID as a balance system by reading MPU sensors. Change the pitch angle and yaw so that the quadcopter only uses the thrust of one rotor to advance etc. looks like the picture below
               </h4>
@@ -156,8 +179,8 @@
         </div>  
              
             
-        <div id="mydiv1">
-          <div class="collapse" id="collapseExample3" data-parent="#accordion">
+        <div id="mydiv4">
+          <div class="collapse" id="collapseExample4" data-parent="#accordion">
             <div class="col-md-12 text-white-opacity-01"><h4>
               Build an automatic raspberry pi bell based on the Raspdebian OS. Raspdebian is an OS with a linux kernel that contains debian peckages. By using the crontab everything works smoothly.
             </h4>
